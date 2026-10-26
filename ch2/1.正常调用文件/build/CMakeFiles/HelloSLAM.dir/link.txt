@@ -1,0 +1,2 @@
+/usr/bin/ar qc libHelloSLAM.a  CMakeFiles/HelloSLAM.dir/src/libHelloSLAM.cpp.o
+/usr/bin/ranlib libHelloSLAM.a

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cp/program/2.slam/slam-cp/ch2/2.使用静态库链接文件/main.cpp
+iostream
+-
+libHelloSLAM.h
+/home/cp/program/2.slam/slam-cp/ch2/2.使用静态库链接文件/libHelloSLAM.h
+

@@ -1,0 +1,33 @@
+{
+	"version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceFolder}/ch5/imageBasics/build" 
+    },  //相当于用cd指令进入到${workspaceFolder}/build文件夹
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "cmake",
+            "command": "cmake",
+            "args":[
+                ".."
+       ]
+        },
+        {
+            "label": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "make",
+            "args": []
+        },
+        {
+            "label": "Build",
+            "dependsOrder": "sequence",     //按列出的顺序执行任务依赖项
+            "dependsOn":[  //依赖项列表
+                "cmake",
+                "make"
+            ],
+        }
+    ]
+}

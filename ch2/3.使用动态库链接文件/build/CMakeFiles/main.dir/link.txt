@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/main.dir/main.cpp.o  -o main  -Wl,-rpath,/home/cp/program/2.slam/slam-cp/ch2/3.使用动态库链接文件/lib ../lib/libHelloSLAM_shared.so 
